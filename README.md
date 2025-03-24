@@ -121,10 +121,10 @@ The hash is calculated out of some of the fields returned and a secret non-publi
 Open your .env file and add your public key, secret key, merchant email and payment url like so:
 
 ```php
-PAYSTACK_PUBLIC_KEY=xxxxxxxxxxxxx
-PAYSTACK_SECRET_KEY=xxxxxxxxxxxxx
+PAYSTACK_PUBLIC_KEY=pk_test_5158504bbb0277ed267d641323ca7a5e3e9df65d
+PAYSTACK_SECRET_KEY=sk_test_8c725c278149413731c15ccbcd490f7dc3e22885
 PAYSTACK_PAYMENT_URL=https://api.paystack.co
-MERCHANT_EMAIL=unicodeveloper@gmail.com
+MERCHANT_EMAIL=space@spaceserve.ng 
 ```
 *If you are using a hosting service like heroku, ensure to add the above details to your configuration variables.*
 
